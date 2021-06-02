@@ -165,6 +165,10 @@ nav a:hover{
 .guidelines div{
     padding:1% 0;
 }
+
+.guidelines span{
+    font-weight:bold;
+}
 /*background image styling*/
 
 .heroimg{
