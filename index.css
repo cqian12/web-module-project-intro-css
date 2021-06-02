@@ -45,7 +45,6 @@ blockquote, q {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
 }
 
 /*general styling*/
@@ -63,7 +62,7 @@ body{
 
 h1{
     font-family: 'Chelsea Market', cursive;
-    font-size:5rem;
+    font-size:6rem;
 }
 
 section{
@@ -81,7 +80,7 @@ nav{
 
 nav a{
     display: inline-block;
-    padding:1% 0;
+    padding:0.5% 0;
     width:15%;
     border-radius:10px;
     text-align: center;
@@ -89,19 +88,24 @@ nav a{
     font-size:2rem;
 }
 
+nav a:hover{
+    background-color: green;
+    color:black;
+}
+
 .plan{
     background-color:#FF764E;
-    margin-left:10%;
+    margin-left:13%;
 }
 
 .learn{
     background-color:#5ED3EB;
-    margin:0 15%;
+    margin:0 12%;
 }
 
 .involved{
     background-color:#FFCD69;
-    margin-right:10%;
+    margin-right:13%;
 }
 
 /*top section styling*/
@@ -128,16 +132,15 @@ nav a{
 
 .right{
     width:45%;
-    margin-left:3%;
     position:absolute;
-    top:40%;
+    top:27%;
 }
 
-.right p{
+.right h2,p{
     padding-top:3%;
 }
 
-/*main body styling -NOT DONE*/
+/*main body styling*/
 
 .description{
     background-color: #DDB9A3;
@@ -158,6 +161,10 @@ nav a{
     width:12%;
     height:12%;
 }
+
+.guidelines div{
+    padding:1% 0;
+}
 /*background image styling*/
 
 .heroimg{
@@ -165,11 +172,12 @@ nav a{
     background-image:url('assets/footer_img.jpg');
     background-repeat:no-repeat;
     background-size:cover;
-    background-position:top;
+    background-position:0 18%;
 }
 
 /*footer styling*/
 
 footer{
     background-color: #F9E7DC;
+    padding: 2%;
 }
